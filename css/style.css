@@ -693,6 +693,7 @@ nav {
     text-align: left;
     gap: 5em;
 }
+
 .section3imgs{
     height: 40vh;
     width: 32vw;
@@ -950,8 +951,67 @@ footer{
     .stat-img{
         width: 600px;
     }
+
+    /* section -3  */
     
+    .section3{
+        width: 75vw;
+        height: max-content;
+        margin: auto;
+        /* margin-top: 15rem; */
+        /* background-color: rgb(95, 138, 137); */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 4rem;
+        align-items: center;
+        text-align: center;
+    }
+
+    .section3_description{
+        gap: 7em;
+    }
+
     
+
+    .section3_description_parts{
+        overflow: hidden;
+        width: 90vw;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2em;
+    
+    }
+
+    .section3imgs{
+        height: 300px;
+        width: max-content;
+    }
+
+    .section3_description_left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.4rem;
+        }
+
+    .section3_description_left h1{
+        font-size: 24px;
+        font-weight: 600;
+        
+    }
+
+    .section3_button{
+        width: max-content;
+        padding: 0.5rem 1.26rem;
+        background-color: #9cba9ce2;
+        border: none;
+        color: #ffffff;
+      
+    }
 
 
     
