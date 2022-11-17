@@ -63,7 +63,7 @@ nav {
 }
 
 /*   ----[[[[    Navbar Section Responsive   ]]]]-----   */
-@media screen and (max-width: 2500px){
+@media screen and (max-width: 1200px){
 
     nav {
   width: 90vw;
@@ -94,6 +94,7 @@ nav {
 }
   
 }
+
 @media screen and (max-width: 1024px){
 
     nav {
@@ -454,7 +455,7 @@ nav {
    
 }
 
-@media screen and  (max-width: 800px) {
+/* @media screen and  (max-width: 800px) {
 
     .headerSection{
         height: 90vh;
@@ -623,7 +624,7 @@ nav {
       
     }
    
-}
+} */
 
 
 /************************* MAIN CONTENT SECTION ***********************/
@@ -856,3 +857,102 @@ footer{
     font-weight: 600;
 }
 
+@media screen and (max-width:768px) {
+
+    /* wrappers  */
+    body{
+        width: 100%;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    .headerSection{
+        height: 76vh;
+        width: 100vw;
+        background-color: #636C79;
+    }
+
+    /* nav-bar section */
+    nav{
+        height: 10vh;
+    }
+
+    .nav-list, .nav-button{
+        display: none;
+    }
+
+    .nav-logo{
+        height: 36px;
+        width: 100px;
+    }
+
+    .hamburger{
+        height: 30px;
+        width: 30px;
+        fill: #ffffff;
+    }
+
+    /* header-section */
+    .header-content{
+        height: 75vh;
+    }
+    .header_img{
+        width: 600px;
+        height: 400px;
+    }
+
+    .header-right{
+        gap: 1.5rem;
+    }
+
+    /* main content section wrapper */
+
+    .content-container{
+        /* background-color: rgb(175, 190, 129); */
+        margin: 5vh 2vw;
+    }
+
+    /* main content section 2 */
+
+    .section2{
+        height: max-content;
+        margin: 5rem 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        gap: 3rem;
+    }
+    
+    .section2-heading{
+        font-size: 36px;
+        width: 90vw;
+        line-height: 48px;
+        font-weight: 600;
+    
+    }
+    
+    .section2_description{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 0px;
+        row-gap: 30px;
+        width: 400px;
+    }
+    
+    .statistics{
+        font-size: 30px;
+    }
+    
+    .stat-img{
+        width: 600px;
+    }
+    
+    
+
+
+    
+}
