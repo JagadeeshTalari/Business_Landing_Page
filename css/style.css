@@ -254,9 +254,9 @@ nav {
 
 
 .section4{
+    width: 75vw;
     margin: auto;
     margin-top: 5rem;
-    width: 75vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -282,7 +282,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    gap: 2.5rem;
+    gap: 2.9rem;
 }
 
 .TeamMembers{
@@ -548,6 +548,60 @@ footer{
         color: #ffffff;
       
     }
+
+    /* section - 4 */
+
+    .section4{
+        width: 80vw;
+        margin: auto;
+        margin-top: 7rem;
+        height: max-content;
+       
+    }
+
+    .section4_part1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 6rem;
+        width: inherit;
+    }
+
+    .section4_heading{
+        height: max-content;
+        width: 20vw;
+        font-weight: 600;
+    }
+
+    .section4_part1>p{
+        width: 45vw;
+    }
+
+    .section4_part2{
+        gap: 1.2rem;
+    }
+
+
+    img[alt="section4img"]{
+        height: 45vh;
+        width: 23vw;
+        clip-path: inset(0vh 0vw 5vh 0vw);
+    }
+
+    .TeamMembers>div>h3{
+       font-size: 16px;
+       font-weight: 600;
+    }
+
+    .TeamMembers>div>p{
+        font-size: 12px;
+        /* font-weight: 600; */
+     }
+
+     .TeamMembers>div>p>br{
+        display: none;
+     }
+
 
 }
 
