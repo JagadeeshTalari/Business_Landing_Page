@@ -62,148 +62,6 @@ nav {
     fill: #ffffff;
 }
 
-/*   ----[[[[    Navbar Section Responsive   ]]]]-----   */
-@media screen and (max-width: 1200px){
-
-    nav {
-  width: 90vw;
-  height: 15vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  margin: auto;
-}
-
-.nav-logo{
-    height: 40px;
-    width: 100px;
-}
-
-.nav-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: 0.9em;
-    width: 40vw;
-
-  }
-  
-  .hamburger{
-    display: none;
-}
-  
-}
-
-@media screen and (max-width: 1024px){
-
-    nav {
-  width: 90vw;
-  height: 15vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  margin: auto;
-}
-
-.nav-logo{
-    height: 40px;
-    width: 100px;
-}
-
-.nav-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: 0.9em;
-    width: 40vw;
-
-  }
-  
-  .hamburger{
-    display: none;
-}
-  
-}
-
-@media screen and (max-width: 940px){
-
-    nav {
-  width: 90vw;
-  height: 15vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  margin: auto;
-}
-
-.nav-logo{
-    height: 30px;
-    width: 80px;
-}
-
-.nav-list {
-    display: none;
-}  
-
-  .nav-button {
-    font-size: 0.6em;
-     padding: 0.4rem 1.2rem;
-    
-  }
-  .nav-right{
-    display: flex;
-    gap: 1em;
-  }
-
-  .hamburger{
-    display: block;
-}
-  
-  
-}
-
-@media screen and (max-width: 500px){
-
-    nav {
-  width: 90vw;
-  height: 15vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  margin: auto;
-}
-
-.nav-logo{
-    height: 30px;
-    width: 80px;
-}
-
-.nav-list {
-   display: none;
-  }
-
-  .nav-button {
-    font-size: 0.6em;
-     padding: 0.4rem 1.2rem;
-    
-  }
-
-  .nav-right{
-    display: flex;
-    gap: 1em;
-  }
-  
-  .hamburger{
-    display: block;
-}
-  
-  
-}
-
 
 /* ---------    HEADER SECTION  -->> Header Content Section     ---------*/
 
@@ -279,353 +137,6 @@ nav {
     color: #ffffff;
   
 }
-
-/*   ----[[[[    Header Content Section Responsive   ]]]]-----   */
-
-@media screen and (max-width: 1300px) {
-
-    .header-content{
-       margin-top: 0.5rem;
-
-    }
-
-    .header-heading{
-        font-size: 35px;
-        font-weight: 600;
-        line-height: 44px;
-    }
-
-    .header_form{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        width: 30vw;
-        height: 3vh;
-        padding: .35rem;
-        background-color: #ffffff;
-    }
-    
-    .header_button{
-        float: right;
-        padding: 0.35rem 1rem;
-        background-color: #9cba9ce2;
-        border: none;
-        color: #ffffff;   
-    }
-
-
-}
-
-@media screen and  (max-width: 1299px) {
-
-    .headerSection{
-        height: 60vh;
-        width: 100vw;
-        background-color: #636C79;
-    }
-
-    .header_img{
-        width: 54vw;
-        height: 38vh;
-        clip-path: inset(0vh 10vw 0vh 10vw);
-    }
-    
-       
-    .header-content{
-        margin-top: 0.5em;
- 
-     }
- 
-     .header-heading{
-         font-size: 25px;
-         font-weight: 600;
-         line-height: 30px;
-     }
-    
-    .header-description, .header_email{
-        font-size: 14px;
-        color: #c8c8c8;
-    }
-
-    .header_email{
-        width: 18vw;
-        height: 3vh;
-        font-size: 12px;
-        padding: .35rem;
-        border: none;
-    }
-    .header_button{
-        float: right;
-        padding: 0.5rem 1.5rem;
-        font-size: 9px;
-        font-weight: 400;
-        background-color: #9cba9ce2;
-        border: none;
-        color: #ffffff;
-      
-    }
-   
-}
-
-@media screen and  (max-width: 1023px) {
-
-    .headerSection{
-        height: 90vh;
-        width: 100vw;
-        background-color: #636C79;
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-    } 
-
-    .header_img{
-        width: 65vw;
-        height: 45vh;
-        clip-path: inset(0vh 10vw 0vh 10vw);
-    }
-    
-       
-    .header-content{
-        width: 100vw;
-        height: 80vh;
-        margin: auto;
-        margin-top: 0.5rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        text-align: center;
-        align-items: center;
-        gap: 2em;
-    }
-    
-    .header-right{
-        width: 65vw;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 1rem;
-        color: #ffffff;
-    
-    }
-
-     
-     .header-heading{
-         font-size: 25px;
-         font-weight: 600;
-         line-height: 30px;
-     }
-    
-    .header-description, .header_email{
-        font-size: 14px;
-        color: #c8c8c8;
-    }
-
-    .header_form{
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: center;
-        width: 50vw;
-        height: 4vh;
-        padding: .35rem;
-        background-color: #ffffff;
-    }
-
-    .header_email{
-        width: 32vw;
-        height: 3vh;
-        font-size: 13px;
-        padding: .35rem;
-        padding-left: 1rem;
-        border: none;
-    }
-
-    .header_button{
-        float: right;
-        padding: 0.6rem 2rem;
-        font-size: 0.5rem;
-        font-weight: 400;
-        background-color: #9cba9ce2;
-        border: none;
-        color: #ffffff;
-      
-    }
-   
-}
-
-/* @media screen and  (max-width: 800px) {
-
-    .headerSection{
-        height: 90vh;
-        width: 100vw;
-        background-color: #636C79;
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-    } 
-
-    .header_img{
-        width: 65vw;
-        height: 45vh;
-        clip-path: inset(0vh 10vw 0vh 10vw);
-    }
-    
-       
-    .header-content{
-        width: 100vw;
-        height: 80vh;
-        margin: auto;
-        margin-top: 0.5rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        text-align: center;
-        align-items: center;
-        gap: 2em;
-    }
-    
-    .header-right{
-        width: 75vw;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 1rem;
-        color: #ffffff;
-    
-    }
-
-     
-     .header-heading{
-         font-size: 25px;
-         font-weight: 600;
-         line-height: 30px;
-     }
-    
-    .header-description, .header_email{
-        font-size: 14px;
-        color: #c8c8c8;
-    }
-
-    .header_form{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        width: 50vw;
-        height: 4vh;
-        padding: .35rem;
-        background-color: #ffffff;
-    }
-
-    .header_email{
-        width: 25vw;
-        height: 3vh;
-        font-size: 12px;
-        padding: .35rem;
-        border: none;
-    }
-    .header_button{
-        float: right;
-        padding: 0.5rem 1.5rem;
-        font-size: 9px;
-        font-weight: 400;
-        background-color: #9cba9ce2;
-        border: none;
-        color: #ffffff;
-      
-    }
-
-   
-}
-
-@media screen and  (max-width: 500px) {
-
-    .headerSection{
-        height: 90vh;
-        width: 100vw;
-        background-color: #636C79;
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-    } 
-
-    .header_img{
-        width: 65vw;
-        height: 45vh;
-        clip-path: inset(0vh 10vw 0vh 10vw);
-    }
-    
-       
-    .header-content{
-        width: 100vw;
-        height: 80vh;
-        margin: auto;
-        margin-top: 0.5rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        text-align: center;
-        align-items: center;
-        gap: 2em;
-    }
-    
-    .header-right{
-        width: 75vw;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 1rem;
-        color: #ffffff;
-    
-    }
-
-     
-     .header-heading{
-         font-size: 25px;
-         font-weight: 600;
-         line-height: 30px;
-     }
-    
-    .header-description, .header_email{
-        font-size: 14px;
-        color: #c8c8c8;
-    }
-
-    .header_form{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        width: 50vw;
-        height: 4vh;
-        padding: .35rem;
-        background-color: #ffffff;
-    }
-
-    .header_email{
-        width: 25vw;
-        height: 3vh;
-        font-size: 12px;
-        padding: .35rem;
-        border: none;
-    }
-    .header_button{
-        float: right;
-        padding: 0.5rem 1.5rem;
-        font-size: 9px;
-        font-weight: 400;
-        background-color: #9cba9ce2;
-        border: none;
-        color: #ffffff;
-      
-    }
-   
-} */
-
 
 /************************* MAIN CONTENT SECTION ***********************/
 
@@ -861,6 +372,90 @@ footer{
     font-weight: 600;
 }
 
+@media screen and (max-width:1024px) {
+
+    /* wrappers */
+
+    .headerSection{
+        height: max-content;
+        width: 100vw;
+        background-color: #636C79;
+        padding: 1rem;
+        padding-bottom: 2.3rem;
+    }
+
+    /* nav-bar */
+
+    .nav-logo{
+        height: 36px;
+        width: 100px;
+    }
+
+    .nav-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 1rem;
+        width: 45vw;
+        margin-left: 15vw;
+        font-size: 14px;
+      }
+    
+    .hamburger{
+        display: none;
+    }
+
+    /* header-content section */
+
+    .header-content{
+       height: max-content;
+       margin-top: 1rem;
+    }
+    
+    .header_img{
+        width: 490px;
+        height: 270px;
+    }
+
+    .header-right{
+        height: initial;
+        justify-content: space-evenly;
+        gap: 1rem;
+    
+    }
+
+    .header-heading{
+        font-size: 23px;
+        font-weight: 600;
+        line-height: 36px;
+    }
+
+    .header_form{
+    
+        padding: .75rem;
+        padding-right: .2rem;
+    
+    }
+
+    .header_email{
+        width: 16vw;
+        height: 3vh;
+        font-size: 12px;
+        padding: .35rem;
+        border: none;
+    }
+
+    .header_button{
+        float: right;
+        font-size: 12px;
+        padding: 0.5rem 1.26rem;
+        background-color: #9cba9ce2;
+        border: none;
+        color: #ffffff;
+      
+    }
+}
+
 @media screen and (max-width:768px) {
 
     /* wrappers  */
@@ -873,7 +468,7 @@ footer{
     }
 
     .headerSection{
-        height: 76vh;
+        height: max-content;
         width: 100vw;
         background-color: #636C79;
     }
@@ -892,23 +487,63 @@ footer{
         width: 100px;
     }
 
+    .nav-right{
+        display: flex;
+        gap: 1em;
+      }
+
     .hamburger{
         height: 30px;
         width: 30px;
         fill: #ffffff;
     }
 
+    .nav-button {
+        display: block;
+        font-size: 0.7em;
+         padding: 0.4rem 1.2rem;
+        
+      }
+
     /* header-section */
     .header-content{
-        height: 75vh;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: left;
+        align-items: center;
+        gap: 2.5rem;
     }
+
     .header_img{
         width: 600px;
         height: 400px;
     }
 
     .header-right{
+        width: 80vw;
         gap: 1.5rem;
+    }
+
+    .header_form{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 60vw;
+        height: 4vh;
+        padding: .35rem;
+        background-color: #ffffff;
+        margin: auto;
+    }
+
+     .header_email{
+        width: 40vw;
+        height: 3vh;
+        font-size: 12px;
+        padding: .35rem;
+        border: none;
     }
 
     .header_button{
