@@ -1168,16 +1168,35 @@ footer{
 
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:540px) {
     
     /* header-section */
 
+    .headerSection{
+        height: max-content;
+        width: 100vw;
+        background-color: #636C79;
+    }
+
+    .nav-logo{
+        height: 28px;
+        width: 84px;
+    }
+
+    .hamburger{
+        height: 26px;
+        width: 26px;
+        fill: #ffffff;
+    }
+
     .header-content{
-        height: 60vh;
+        height: max-content;
+        padding: 1.5rem 0rem;
     }
 
     .header-right{
-        width: 90vw;
+        width: 85vw;
+        text-align: left;
     }
     
     .header-heading{
@@ -1188,7 +1207,7 @@ footer{
 
     .header_img{
         width: max-content;
-        height: 270px;
+        height: 240px;
     }
 
     .header_form{
@@ -1220,10 +1239,23 @@ footer{
         line-height: 40px;
         font-weight: 600;
     
-    }    
+    }   
+    
+    .section2_description{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 25px;
+        row-gap: 30px;
+        width: 350px;
+    }
+    
     
     .statistics{
-        font-size: 24px;
+        font-size: 20px;
+    }
+
+    .stat_define{
+        font-size: 14px;
     }
     .stat-img{
         width: max-content;
