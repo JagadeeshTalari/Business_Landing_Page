@@ -506,6 +506,49 @@ footer{
     .stat-img{
         height: 400px;
     }
+
+    /* section -3 */
+
+    .section3{
+        width: 75vw;
+        height: max-content;
+        margin: auto;
+        margin-top: 8rem;
+        /* background-color: rgb(95, 138, 137); */
+        
+    }
+    
+    .section3-head {
+        width: 40vw;
+    }
+
+    .section3_description_left{
+        gap: 1.25rem;
+        }
+    
+
+    .section3_description_left h1{
+        width: 40vw;
+        font-size: 29px;
+        line-height: 37px;
+        font-weight: 600;
+    }
+
+    .section3_description_left p{
+        font-size: 14px;
+        line-height: 24px;
+     
+     }
+
+    .section3_button{
+        width: max-content;
+        padding: 0.5rem 2rem;
+        background-color: #9cba9ce2;
+        border: none;
+        color: #ffffff;
+      
+    }
+
 }
 
 @media screen and (max-width:768px) {
