@@ -911,6 +911,17 @@ footer{
         gap: 1.5rem;
     }
 
+    .header_button{
+        float: right;
+        padding: 0.5rem 1.2rem;
+        font-size: 10px;
+        font-weight: 400;
+        background-color: #9cba9ce2;
+        border: none;
+        color: #ffffff;
+      
+    }
+
     /* main content section wrapper */
 
     .content-container{
@@ -998,6 +1009,7 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        
         gap: 1.4rem;
         }
 
@@ -1060,13 +1072,13 @@ footer{
 
     .TeamMembers{
         height: max-content;
-        width: 230px;
+        width: 250px;
         font-size: 16px;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         margin-top: 1rem;
-        gap: 8rem;
+        gap: 9.5rem;
     }
 
     .TeamMembers>div>h3{
@@ -1181,11 +1193,23 @@ footer{
 
     .header_form{
         justify-content: space-between;
-        width: 80vw;
+        width: 70vw;
+        padding: .05rem .25rem;
     }
 
     .header_email{
-        width: max-content;
+        display: none;
+    }
+
+    .header_button{
+        float: right;
+        padding: 0.3rem 1.2rem;
+        font-size: 9px;
+        font-weight: 400;
+        background-color: #9cba9ce2;
+        border: none;
+        color: #ffffff;
+      
     }
 
     /* section -2  */
@@ -1204,6 +1228,36 @@ footer{
     .stat-img{
         width: max-content;
         height: 240px;
+    }
+
+    /* section-4 */
+
+    .section4_part2{
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        gap: 0.75rem;
+        justify-content: space-between;
+    }
+
+    .TeamMembers{
+        height: max-content;
+        width: 180px;
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 0.8rem;
+        gap: 8.5rem;
+    }
+
+    
+    .TeamMembers>div>h3{
+        margin-bottom: 0.7rem;
+    }
+    
+    .TeamMembers>div>p{
+        font-size: 14px;
     }
 
     /* footer */
