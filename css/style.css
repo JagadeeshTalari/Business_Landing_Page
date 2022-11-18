@@ -256,7 +256,7 @@ nav {
 .section4{
     width: 75vw;
     margin: auto;
-    margin-top: 5rem;
+    margin-top: 7rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -372,7 +372,7 @@ footer{
     font-weight: 600;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1024px) and (min-width:769px) {
 
     /* wrappers */
 
@@ -563,12 +563,11 @@ footer{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        gap: 6rem;
         width: inherit;
+       
     }
 
     .section4_heading{
-        height: max-content;
         width: 20vw;
         font-weight: 600;
     }
@@ -601,6 +600,55 @@ footer{
      .TeamMembers>div>p>br{
         display: none;
      }
+
+     /* footer */
+
+     footer{
+        height: 47vh;
+        background-color: #10181D;
+    }
+
+     .footerpart1{
+        height: 12vh;
+     }
+
+    .footer_logo{
+        height: 36px;
+        width: 100px;
+    }
+
+    .social_logos{
+        width: 22vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center; 
+        text-align: center;
+    }
+
+    .social_bg{
+        text-align: center;
+        height: 36px;
+        width: 36px;
+        background-color: #5d5d5d67;
+        border-radius: 50%;
+    }
+
+    .footer_list{
+        display: flex;
+        height: 22vh;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: space-around;
+        color: #948c8c;
+        font-size: 14px;
+      }
+
+      .list-active{
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 600;
+    }
 
 
 }
