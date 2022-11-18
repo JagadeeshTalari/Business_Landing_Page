@@ -773,6 +773,7 @@ nav {
     justify-content: flex-start;
     gap: 2.5rem;
 }
+
 .TeamMembers{
     font-size: 15px;
     margin-top: -2rem;
@@ -787,6 +788,8 @@ img[alt="section4img"]{
     width: 24vw;
     clip-path: inset(0vh 0vw 5vh 0vw);
 }
+
+/* footer section */
 
 footer{
     height: 50vh;
@@ -1013,6 +1016,74 @@ footer{
       
     }
 
+    /* section - 4 */
 
+    .section4{
+        margin: auto;
+        margin-top: 5rem;
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0rem;
+    }
+
+    .section4_part1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 1rem;
+        margin-bottom: 2rem;
     
+    }
+
+    .section4_part2{
+    
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        justify-content: space-between;
+    }
+
+    .section4images{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 1rem;
+    }
+
+    img[alt="section4img"]{
+        height: 220px;
+        width: max-content;
+    }
+
+    .TeamMembers{
+        height: max-content;
+        width: 230px;
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 1rem;
+        gap: 8rem;
+    }
+
+    .TeamMembers>div>h3{
+        margin-bottom: 1.2rem;
+    }
+    
+    .TeamMembers>div>p{
+        font-size: 15px;
+    }
+
+    .TeamMembers>div>p>br{
+        display: none;
+      
+    }
+
+    section4_button{
+       
+    }
+
 }
