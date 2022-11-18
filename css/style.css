@@ -16,7 +16,7 @@ body {
 /************************* HEADER SECTION ***********************/
 
 .headerSection{
-    height: 70vh;
+    height: max-content;
     width: 100vw;
     background-color: #636C79;
 }
@@ -67,9 +67,10 @@ nav {
 
 .header-content{
     width: 100vw;
-    height: 45vh;
+    height: max-content;
     margin: auto;
     margin-top: 1.5rem;
+    padding-bottom: 4rem;
     display: flex;
     flex-direction: row;
 }
@@ -77,6 +78,7 @@ nav {
                             /* header left section */
 .header-left{
     padding: 0vh 0vw;
+    align-self: center;
 }
 
 .header_img{
@@ -148,7 +150,7 @@ nav {
 
 /* ---------   MAIN CONTENT SECTION  -->> Section-2 ( Stats )   ---------*/
 .section2{
-    height: 100vh;
+    height: max-content;
     margin-top: 5rem;
     display: flex;
     flex-direction: column;
@@ -184,9 +186,9 @@ nav {
 
 .section3{
     width: 75vw;
-    height: 160vh;
+    height: max-content;
     margin: auto;
-    margin-top: 15rem;
+    margin-top: 10rem;
     /* background-color: rgb(95, 138, 137); */
     display: flex;
     flex-direction: column;
@@ -206,8 +208,8 @@ nav {
 }
 
 .section3imgs{
-    height: 40vh;
-    width: 32vw;
+    height: 300px;
+    width: 360px;
 }
 
 .section3_description_parts{
@@ -282,7 +284,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    gap: 2.9rem;
+    gap: 5.2rem;
 }
 
 .TeamMembers{
@@ -295,8 +297,9 @@ nav {
 }
 
 img[alt="section4img"]{
-    height: 40vh;
-    width: 24vw;
+    
+    width: 280px;
+    height: 300px;
     clip-path: inset(0vh 0vw 5vh 0vw);
 }
 
@@ -370,6 +373,91 @@ footer{
     color: #ffffff;
     font-size: 1.1em;
     font-weight: 600;
+}
+
+@media screen and (min-width:1500px){
+    .hamburger{
+        display: none;
+    }
+}
+
+@media screen and (min-width:1025px) and (max-width:1500px) {
+    /*nav-bar  */
+
+    .nav-logo{
+        height: 42px;
+        width: 110px;
+    }
+
+    .hamburger{
+        display:none;
+    }
+
+    /* header content section */
+
+    .header-heading{
+        font-size: 42px;
+        font-weight: 600;
+        line-height: 52px;
+    }
+
+    /* section 2 */
+
+    .section2-heading{
+        font-size: 40px;
+        width: 45vw;
+        line-height: 55px;
+        font-weight: 600;
+    
+    }
+
+    .statistics{
+        font-size: 36px;
+    }
+
+    /* section - 3 */
+
+    .section3{
+        width: 75vw;
+        height: max-content;
+        margin: auto;
+        margin-top: 15rem;
+        /* background-color: rgb(95, 138, 137); */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 3.5em;
+        align-items: center;
+        text-align: center;
+    }
+
+    .section3_description_left h1{
+        font-size:32px;
+        font-weight: 600;
+    
+    }
+
+    /* section-4 */
+
+    
+    .TeamMembers>div>p>br{
+        display: none;
+     }
+
+    /* footer */
+
+    .footer_logo{
+        height: 36px;
+        width: 100px;
+      }
+
+    .social_bg{
+        text-align: center;
+        height: 38px;
+        width: 38px;
+        background-color: #5d5d5d67;
+        border-radius: 50%;
+    }
 }
 
 @media screen and (max-width:1024px) and (min-width:769px) {
