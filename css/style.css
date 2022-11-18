@@ -380,9 +380,14 @@ footer{
         height: max-content;
         width: 100vw;
         background-color: #636C79;
-        padding: 1rem;
+        padding: 1rem 0rem;
         padding-bottom: 2.3rem;
     }
+
+    .content-container{
+        /* background-color: rgb(175, 190, 129); */
+        margin: 7vh 2vw;
+    }    
 
     /* nav-bar */
 
@@ -405,6 +410,13 @@ footer{
         display: none;
     }
 
+    .nav-button {
+        padding: 0.5rem 2rem;
+        background-color: transparent;
+        border: 1px solid #c9c6c6e2;
+        color: #ffffff;
+      }
+
     /* header-content section */
 
     .header-content{
@@ -414,7 +426,7 @@ footer{
     
     .header_img{
         width: 490px;
-        height: 270px;
+        height: 370px;
     }
 
     .header-right{
@@ -425,16 +437,15 @@ footer{
     }
 
     .header-heading{
-        font-size: 23px;
+        font-size: 36px;
         font-weight: 600;
-        line-height: 36px;
+        line-height: 46px;
     }
 
     .header_form{
     
-        padding: .75rem;
+        padding: .5rem;
         padding-right: .2rem;
-    
     }
 
     .header_email{
@@ -442,17 +453,58 @@ footer{
         height: 3vh;
         font-size: 12px;
         padding: .35rem;
+        padding-right: 2rem;
         border: none;
     }
 
     .header_button{
         float: right;
         font-size: 12px;
-        padding: 0.5rem 1.26rem;
+        padding: 0.5rem 1.5rem;
         background-color: #9cba9ce2;
         border: none;
         color: #ffffff;
       
+    }
+
+    /* content-section section 2 */
+
+    .section2{
+        height: max-content;
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        gap: 3rem;
+    }
+
+    .section2-heading{
+        font-size: 36px;
+        width: 550w;
+        line-height: 45px;
+        font-weight: 600;
+    
+    }
+
+    .section2_description{
+        width: 80vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .statistics{
+        font-size: 32px;
+    }
+
+    .stat_define{
+        font-size: 14px;
+    }
+
+    .stat-img{
+        height: 400px;
     }
 }
 
